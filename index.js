@@ -104,8 +104,9 @@ const newEngineer = function(){
         }
     ])
     .then(({name,email,id,github})=>{
-        const newEngineer = new Engineer(name,email,id,office);
+        const newEngineer = new Engineer(name,email,id,github);
         teamArray.push(newEngineer);
         nextPerson();
     })
 }
+newManager();
