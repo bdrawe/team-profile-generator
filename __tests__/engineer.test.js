@@ -1,9 +1,20 @@
-const { TestScheduler } = require("jest");
-const Employee = require("../lib/Employee");
-const Engineer = require("../lib/Engineer")
+const { string } = require('yargs');
+const Employee = require('../lib/Employee');
+const Engineer = require('../lib/Engineer');
+const engineer = require('../lib/Engineer');
 
-test("see if the engineer has a github username", () => {
-    const gitHubuserName = gitHubuserName;
+test("test the object of an engineer", () => {
+    const engineer = new Engineer("Bryce", "brycerdrawe.b@gmail.com","45","bdrawe")
 
-    expect(employee.gitHubuserName).toBe(Employee.gitHubuserName.toString());
+    expect(engineer.github).toEqual(expect.any(String));
+});
+test('test get github()', () => {
+    const engineer = new Engineer("Bryce", "brycerdrawe.b@gmail.com","45","bdrawe")
+
+    expect(engineer.getGithub()).toEqual(engineer.github);
+})
+test('test getRole()', () => {
+    const engineer = new Engineer("Bryce", "brycerdrawe.b@gmail.com","45","bdrawe")
+
+    expect(engineer.getRole()).toBe("Engineer");
 })
