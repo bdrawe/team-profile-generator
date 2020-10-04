@@ -30,9 +30,9 @@ This is a command-line application that will give a series of prompts (Inquirer)
 
   To gain use this app, in your command line enter `npm install` and this will install all necessary dependencies for this application.
   Here an image of what the finish product should look like: 
-  ---
+ 
   ![Team-Dashboard]("../../src/Screen%20Shot%202020-10-03%20at%2010.29.24%20PM.png)
-  ---
+  
   For more of a step by step, here is a Youtube Video on me testing the application, and showing how it should be implemented. 
  
   ## License
