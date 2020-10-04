@@ -34,6 +34,7 @@ This is a command-line application that will give a series of prompts (Inquirer)
   ![Team-Dashboard]("../../src/Screen%20Shot%202020-10-03%20at%2010.29.24%20PM.png)
   
   For more of a step by step, here is a Youtube Video on me testing the application, and showing how it should be implemented. 
+  [Youtube Video](https://youtu.be/34sFpVB66Gk)
  
   ## License
 
