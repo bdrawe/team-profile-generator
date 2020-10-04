@@ -37,7 +37,7 @@ This is a command-line application that will give a series of prompts (Inquirer)
  
   ## License
 
-[APM]("https://img.shields.io/badge/APM-MIT-green.png")
+[APM](https://img.shields.io/badge/APM-MIT-green.png)
 
   ## Questions
   Feel free to reach out to me with any questions or issues you have with this product. You can reach out to me in the following ways below
