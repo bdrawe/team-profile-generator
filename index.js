@@ -2,6 +2,8 @@ const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
 const Engineer =  require('./lib/Engineer');
 const inquirer = require('inquirer');
+const makePage =  require('./src/generate-html');
+const writeHTML = require('./src/write-doc');
 const teamArray = [];
 
 const nextPerson = function(){
