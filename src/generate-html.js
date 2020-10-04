@@ -21,10 +21,10 @@ const makePage =  function(array) {
           <h2 style="margin-top:10px;">Go Team Go!</h2>
       </div>
       <div class="carousel-item">
-        <h2 style="margin-top:10px;>I love my team</h2>
+        <h2 style="margin-top:10px;">I love my team</h2>
       </div>
       <div class="carousel-item">
-        <h2 style="margin-top:10px;>My team is best!</h2>
+        <h2 style="margin-top:10px;">My team is best!</h2>
       </div>
     </div>
   </div>
