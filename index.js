@@ -4,8 +4,10 @@ const Engineer =  require('./lib/Engineer');
 const inquirer = require('inquirer');
 const makePage =  require('./src/generate-html');
 const writeHTML = require('./src/write-doc');
+//initialize empty array because once populated it will be the data to make the html
 const teamArray = [];
 
+//this function will determine if they want to continue adding team members or if they want to print the html doc. 
 const nextPerson = function(){
     inquirer
         .prompt([{
@@ -21,6 +23,7 @@ const nextPerson = function(){
                 newIntern()
             } else {
                 makePage(teamArray);
+                console.log("Page has been made in the ./dist folder labeled index.html!")
             }  
         })
 }
@@ -111,4 +114,5 @@ const newEngineer = function(){
         nextPerson();
     })
 }
+//calling this function to get things going
 newManager();
